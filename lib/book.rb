@@ -3,6 +3,12 @@ class Book
   attr_reader :title
   
   GENRES = []
+  
+  def genre=(genre)
+    GENGRES << genre
+  end
+  
+  attr_reader :
 
 
 
