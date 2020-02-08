@@ -5,9 +5,11 @@ class Shoe
   BRANDS = []
   
   def initialize(brand)
-    if BRANDS.include?(brand) = FALSE
+    if BRANDS.include?(brand) 
      @brand = brand
-     BRANDS << brand 
+    else
+     @brand = brand
+     BRANDS << brand
    end
   end
 
